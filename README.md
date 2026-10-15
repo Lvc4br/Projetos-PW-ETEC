@@ -30,6 +30,11 @@ Este é um repositório acadêmico e colaborativo, não um produto comercial. Os
 - Bianca
 - Fred
 
+## Contribuidores no GitHub
+
+- [Bianca2804](https://github.com/Bianca2804)
+- [Csx-Santosz](https://github.com/Csx-Santosz)
+
 ---
 
 **Projeto acadêmico de Programação Web (PW).**
