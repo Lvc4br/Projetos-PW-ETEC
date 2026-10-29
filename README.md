@@ -1,58 +1,52 @@
 # Projetos de Programação Web — ETEC
 
-Repositório acadêmico dedicado ao desenvolvimento e à documentação de atividades práticas da disciplina de **Programação Web (PW)**, realizadas durante a formação técnica na ETEC.
-
-O projeto reúne exercícios e aplicações desenvolvidos para colocar em prática conceitos de desenvolvimento web, organização de código, versionamento e colaboração em equipe. O repositório também serve como registro da evolução técnica dos estudantes ao longo das atividades.
-
-## Objetivos de aprendizagem
-
-- Aplicar fundamentos de **HTML, CSS e JavaScript** na construção de páginas e interfaces web.
-- Desenvolver boas práticas de organização de arquivos e estruturação de projetos.
-- Utilizar **Git e GitHub** para versionamento, documentação e colaboração.
-- Exercitar a resolução de problemas e a implementação incremental de funcionalidades.
-- Explorar, em contexto educacional, a publicação de aplicações em um ambiente de hospedagem na nuvem.
+Repositório acadêmico e colaborativo da disciplina de Programação Web. O conteúdo atual inclui o site estático de uma sorveteria, com páginas HTML, estilos CSS, scripts JavaScript e assets de imagem/fontes.
 
 ## Projeto em destaque: Sorveteria
 
-O repositório inclui o projeto de um site de sorveteria, desenvolvido como atividade prática de Programação Web.
+Demonstração hospedada: http://64.181.168.160/sorveteria/
 
-**Acessar o site:** [Projeto Sorveteria — versão hospedada](http://64.181.168.160/sorveteria/)
+### Arquitetura observada
 
-### Hospedagem para fins de estudo
+```text
+Sorveteria/
+├── index.html
+├── Cardapio.html
+├── Feed.html
+├── Sobre.html
+├── CSS/       # estilos globais e específicos das páginas
+├── js/        # lógica de interface, filtros e modal de produto
+├── imgs/      # imagens de produtos, logos e recursos visuais
+└── Fonts/     # arquivos de fontes locais e licenças
+```
 
-Além dos arquivos mantidos no GitHub, o site também está publicado em uma instância da **Oracle Cloud Infrastructure (OCI)**. Essa implantação tem finalidade educacional e permite estudar etapas do processo de disponibilização de um site na internet, incluindo hospedagem em servidor remoto e acesso por endereço público.
+O front-end é estático: o navegador carrega HTML, CSS, JavaScript e arquivos de mídia. A organização inclui scripts para interface/feed, filtro e modal de produto. Não há, na estrutura documentada, um backend ou banco de dados próprio; não trate catálogo, carrinho ou formulário visual como fluxo de pedido persistente sem confirmar uma integração separada.
 
-> A hospedagem é utilizada para aprendizado e experimentação acadêmica; não deve ser interpretada como infraestrutura de produção ou como garantia de disponibilidade contínua.
+## Tecnologias e práticas
 
-## Tecnologias e ferramentas
+- HTML para páginas e conteúdo.
+- CSS para layout, tipografia e componentes visuais.
+- JavaScript para interações no navegador.
+- Git/GitHub para versionamento e colaboração.
+- Hospedagem de estudo em uma instância OCI; o endereço público pode ficar indisponível ou mudar.
 
-- **HTML** — estrutura e organização do conteúdo.
-- **CSS** — apresentação visual e estilos das páginas.
-- **JavaScript** — interatividade e comportamentos no navegador.
-- **Git e GitHub** — controle de versão e colaboração.
-- **Oracle Cloud Infrastructure (OCI)** — ambiente de hospedagem utilizado para fins de estudo.
+## Como executar localmente
 
-As tecnologias podem variar conforme a atividade. Consulte os arquivos e as pastas de cada projeto para conhecer sua implementação específica.
+Abra `Sorveteria/index.html` no navegador ou sirva a pasta `Sorveteria/` por um servidor HTTP estático. Como não há `package.json` na estrutura do projeto, não há comandos npm documentados para build ou testes.
 
-## Organização do repositório
+## Colaboração e escopo
 
-Os trabalhos estão organizados em pastas por atividade ou projeto. Cada pasta pode conter arquivos, recursos e estruturas próprios. Para compreender ou executar um trabalho localmente, verifique os arquivos disponíveis e as instruções específicas da respectiva pasta.
-
-## Equipe acadêmica
-
-- Luca
-- Bianca
-- Fred
-
-## Contribuidores no GitHub
-
+O repositório registra atividades de aprendizagem e colaboração. Colaboradores listados:
 - [Bianca2804](https://github.com/Bianca2804)
 - [Csx-Santosz](https://github.com/Csx-Santosz)
 
-## Escopo do projeto
+A autoria de arquivos específicos deve ser confirmada pelo histórico de commits; a lista de colaboradores não implica divisão fixa de responsabilidades.
 
-Este repositório tem caráter **educacional e colaborativo**. Seu propósito é registrar atividades, praticar competências técnicas e acompanhar o aprendizado dos estudantes em desenvolvimento web. Os projetos podem apresentar diferentes níveis de acabamento, conforme os objetivos e a etapa de cada atividade.
+## Limitações
 
----
+- Projeto educacional, não e-commerce pronto para produção.
+- Não há testes automatizados, pipeline de CI ou build frontend configurados no repositório.
+- Disponibilidade da hospedagem externa não é garantida.
+- Verifique cada página e script antes de reutilizar componentes em outros projetos.
 
-*Projeto acadêmico da disciplina de Programação Web (PW) — ETEC.*
+**Autor/colaborador:** Luca Toniolo — [@Lvc4br](https://github.com/Lvc4br)
