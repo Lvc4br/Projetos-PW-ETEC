@@ -8,8 +8,6 @@ Demonstração hospedada: http://64.181.168.160/sorveteria/
 
 ### Arquitetura observada
 
-### Arquitetura observada
-
 ```mermaid
 flowchart TD
     A[Browser] --> B[HTML pages]
