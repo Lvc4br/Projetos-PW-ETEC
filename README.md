@@ -8,6 +8,17 @@ Demonstração hospedada: http://64.181.168.160/sorveteria/
 
 ### Arquitetura observada
 
+### Arquitetura observada
+
+```mermaid
+flowchart TD
+    A[Browser] --> B[HTML pages]
+    B --> C[CSS styles]
+    B --> D[JavaScript interactions]
+    B --> E[Images and local fonts]
+    D -. no persistent backend documented .-> F[No order database/API]
+```
+
 ```text
 Sorveteria/
 ├── index.html
