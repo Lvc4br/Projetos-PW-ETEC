@@ -1,6 +1,10 @@
 # Projetos de Programação Web — ETEC
 
-Repositório acadêmico e colaborativo da disciplina de Programação Web. O conteúdo atual inclui o site estático de uma sorveteria, com páginas HTML, estilos CSS, scripts JavaScript e assets de imagem/fontes.
+> Repositório acadêmico e colaborativo com atividades desenvolvidas durante a disciplina de Programação Web da ETEC.
+
+<sub>HTML5 · CSS3 · JavaScript · Git · GitHub</sub>
+
+**Conteúdo atualmente documentado:** projeto de site estático para uma sorveteria, organizado em páginas, estilos, scripts e recursos visuais. O repositório registra uma etapa de aprendizagem e colaboração; não representa um e-commerce de produção. Não há backend ou persistência de pedidos documentados.
 
 ## Projeto em destaque: Sorveteria
 
